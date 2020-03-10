@@ -19,23 +19,24 @@
 //Linear depth visualization post processing shader
 
 //How to use :
-//	(1) Create quad mesh (optional : make it a child of a camera)
+//	(1) Create quad mesh, make it a child of a camera
 //	(2) Set width and height to 2
 //	(3) Add shader material and assign this shader
-//	(4) Edit the z-near and z-far to your needs
+//	(4) Edit the z-near and z-far to fit your needs
 
 shader_type spatial;
 
-render_mode skip_vertex_transform, unshaded, depth_draw_never;
+render_mode unshaded, depth_draw_never;
 
 uniform float z_near = 0.01;
 uniform float z_far = 100.0;
 
 void vertex() {
-	PROJECTION_MATRIX = mat4(1.0);
+	POSITION = vec4(VERTEX, 1.0);
 }
 
 void fragment() {
+	//Get depth value and linearize it between z_near and z_far
 	float z = (2.0 * z_near) / (z_far + z_near - texture( DEPTH_TEXTURE, SCREEN_UV ).x * (z_far - z_near));
 	ALBEDO = vec3(z);
 }
