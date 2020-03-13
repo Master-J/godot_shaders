@@ -24,6 +24,10 @@
 //	(3) Add shader material and assign this shader
 //	(4) Edit the z-near and z-far to fit your needs
 
+
+//Know limitations :
+//	- Only works with cameras set in perspective mode, it doesn't work with orthographic cameras
+
 shader_type spatial;
 
 render_mode unshaded, depth_draw_never;
