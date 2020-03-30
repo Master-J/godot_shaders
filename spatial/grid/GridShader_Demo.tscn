@@ -1,0 +1,241 @@
+[gd_scene load_steps=6 format=2]
+
+[sub_resource type="Animation" id=1]
+resource_name = "Grid_Demo"
+length = 7.5
+loop = true
+tracks/0/type = "bezier"
+tracks/0/path = NodePath("World/Ground:material/0:shader_param/grid_color:r")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"points": PoolRealArray( 0, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/1/type = "bezier"
+tracks/1/path = NodePath("World/Ground:material/0:shader_param/grid_color:g")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"points": PoolRealArray( 0, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/2/type = "bezier"
+tracks/2/path = NodePath("World/Ground:material/0:shader_param/grid_color:b")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"points": PoolRealArray( 0, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/3/type = "bezier"
+tracks/3/path = NodePath("World/Ground:material/0:shader_param/grid_color:a")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0, 0, -0.25, 0, 0.25, 0, 0, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 3.5, 4.5, 6.5, 7.5 )
+}
+tracks/4/type = "bezier"
+tracks/4/path = NodePath("World/Ground:material/0:shader_param/background_color:r")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"points": PoolRealArray( 0, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/5/type = "bezier"
+tracks/5/path = NodePath("World/Ground:material/0:shader_param/background_color:g")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"points": PoolRealArray( 0, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/6/type = "bezier"
+tracks/6/path = NodePath("World/Ground:material/0:shader_param/background_color:b")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"points": PoolRealArray( 0, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/7/type = "bezier"
+tracks/7/path = NodePath("World/Ground:material/0:shader_param/background_color:a")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"points": PoolRealArray( 0, -0.25, 0, 0.25, 0, 0, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0, 1, -0.25, 0, 0.25, 0, 0, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 3.5, 4.5, 6.5, 7.5 )
+}
+tracks/8/type = "bezier"
+tracks/8/path = NodePath("World/Ground:material/0:shader_param/emission_color:r")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/9/type = "bezier"
+tracks/9/path = NodePath("World/Ground:material/0:shader_param/emission_color:g")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"points": PoolRealArray( 0.282353, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/10/type = "bezier"
+tracks/10/path = NodePath("World/Ground:material/0:shader_param/emission_color:b")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/keys = {
+"points": PoolRealArray( 0, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/11/type = "bezier"
+tracks/11/path = NodePath("World/Ground:material/0:shader_param/emission_color:a")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/keys = {
+"points": PoolRealArray( 1, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/12/type = "bezier"
+tracks/12/path = NodePath("World/Ground:material/0:shader_param/emission_strength")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/keys = {
+"points": PoolRealArray( 8, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+tracks/13/type = "bezier"
+tracks/13/path = NodePath("World/Ground:material/0:shader_param/line_thickness")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/keys = {
+"points": PoolRealArray( 0.02, -0.25, 0, 0.25, 0, 0.02, -0.25, 0, 0.25, 0, 0.4, -0.25, 0, 0.25, 0, 0.4, -0.25, 0, 0.25, 0, 0.02, -0.25, 0, 0.25, 0, 0.02, -0.25, 0, 0.25, 0, 0.02, -0.25, 0, 0.25, 0, 0.4, -0.25, 0, 0.25, 0, 0.02, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0, 0.5, 1.5, 2, 3, 3.5, 4, 5.5, 7 )
+}
+tracks/14/type = "bezier"
+tracks/14/path = NodePath("World/Ground:material/0:shader_param/cell_count")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/keys = {
+"points": PoolRealArray( 10, -0.25, 0, 0.25, 0 ),
+"times": PoolRealArray( 0 )
+}
+
+[sub_resource type="Environment" id=2]
+background_mode = 1
+background_color = Color( 0.243137, 0.243137, 0.243137, 1 )
+ambient_light_color = Color( 0.796078, 0.796078, 0.796078, 1 )
+glow_enabled = true
+glow_bicubic_upscale = true
+
+[sub_resource type="PlaneMesh" id=3]
+size = Vector2( 100, 100 )
+
+[sub_resource type="Shader" id=5]
+code = "//MIT License
+//Copyright (c) 2020 Master-J
+//Permission is hereby granted, free of charge, to any person obtaining a copy
+//of this software and associated documentation files (the \"Software\"), to deal
+//in the Software without restriction, including without limitation the rights
+//to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+//copies of the Software, and to permit persons to whom the Software is
+//furnished to do so, subject to the following conditions:
+//The above copyright notice and this permission notice shall be included in all
+//copies or substantial portions of the Software.
+//THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+//IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+//FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+//AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+//LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+//OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+//SOFTWARE.
+
+//Procedural grid shader
+
+shader_type spatial;
+render_mode blend_mix, depth_draw_alpha_prepass;
+
+uniform vec4 grid_color : hint_color = vec4(vec3(0.0),1.0);
+uniform vec4 background_color : hint_color = vec4(vec3(0.0),0.0);
+
+uniform vec4 emission_color : hint_color = vec4(vec3(0.0),1.0);
+uniform float emission_strength : hint_range(0.0, 10.0) = 1.0;
+
+uniform float line_thickness : hint_range(0.001, 0.5) = 0.01;
+uniform int cell_count = 10;
+
+void fragment()
+{
+    float x = fract(UV.x * float(cell_count));
+    x = min(x, 1.0 - x);
+    x = smoothstep(x - fwidth(x), x + fwidth(x), line_thickness);
+
+    float y = fract(UV.y * float(cell_count));
+    y = min(y, 1.0 - y);
+    y = smoothstep(y - fwidth(y), y + fwidth(y), line_thickness);
+
+    float grid = clamp(x + y, 0.0, 1.0);
+
+	vec4 color = mix(background_color, grid_color, grid);
+	
+	ALBEDO = color.rgb;
+	EMISSION = emission_color.rgb * emission_strength * color.a;
+    ALPHA = color.a;
+}"
+
+[sub_resource type="ShaderMaterial" id=4]
+shader = SubResource( 5 )
+shader_param/grid_color = Color( 0, 0, 0, 0.00916317 )
+shader_param/background_color = Color( 0, 0, 0, 0.990837 )
+shader_param/emission_color = Color( 1, 0.282353, 0, 1 )
+shader_param/emission_strength = 8.0
+shader_param/line_thickness = 0.121714
+shader_param/cell_count = 10.0
+
+[node name="Grid_Shader_Demo" type="Spatial"]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/Grid_Demo = SubResource( 1 )
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource( 2 )
+
+[node name="World" type="Spatial" parent="."]
+
+[node name="Ground" type="MeshInstance" parent="World"]
+mesh = SubResource( 3 )
+material/0 = SubResource( 4 )
